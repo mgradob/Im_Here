@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global Theme -->
+    <style name="ImHere.v21" parent="ImHere"/>
+
+    <!-- Drawer Arrow -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+    </style>
+
+    <!-- Fonts styles Dark -->
+    <style name="ImHere.v21.Text.Display4" parent="@android:style/TextAppearance.Material.Display4">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Display3" parent="@android:style/TextAppearance.Material.Display3">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Display2" parent="@android:style/TextAppearance.Material.Display2">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Display1" parent="@android:style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Headline" parent="@android:style/TextAppearance.Material.Headline">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Title" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Subhead" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Body1" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Body2" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Caption" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ImHere.v21.Text.Button" parent="@android:style/TextAppearance.Material.Button">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="ImHere.v21.Light" parent="ImHere"/>
+
+    <!-- Fonts styles Light-->
+    <style name="ImHere.v21.Light.Text.Display4" parent="@android:style/TextAppearance.Material.Display4">
+        <item name="android:textColor">@color/secondary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Display3" parent="@android:style/TextAppearance.Material.Display3">
+        <item name="android:textColor">@color/secondary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Display2" parent="@android:style/TextAppearance.Material.Display2">
+        <item name="android:textColor">@color/secondary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Display1" parent="@android:style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@color/secondary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Headline" parent="@android:style/TextAppearance.Material.Headline">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Title" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Subhead" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Body1" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Body2" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Caption" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:textColor">@color/secondary_text_light</item>
+    </style>
+
+    <style name="ImHere.v21.Light.Text.Button" parent="@android:style/TextAppearance.Material.Button">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+</resources>

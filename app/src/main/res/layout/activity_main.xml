@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/main_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="200dp" />
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/main_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/main_map"
+        android:layout_gravity="bottom"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/anchor"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:background="@color/background" />
+
+            <include
+                layout="@layout/fragment_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/anchor" />
+
+        </RelativeLayout>
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="230dp"
+        android:background="@color/background"
+        app:title="@string/app_name"
+        app:titleTextAppearance="@style/ImHere.v21.Text.Display1" />
+
+    <TextView
+        style="@style/ImHere.v21.Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="270dp"
+        android:layout_marginRight="16dp"
+        android:text="Next Location:" />
+
+    <TextView
+        android:id="@+id/main_next_location"
+        style="@style/ImHere.v21.Text.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="16dp"
+        android:text="NEXT_LOCATION" />
+
+</FrameLayout>
